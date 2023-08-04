@@ -1,0 +1,51 @@
+.header__nav {
+  display: flex;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.header__logo {
+  display: flex;
+  position: relative;
+  padding: 20px;
+}
+
+.header__logo img {
+  width: 113px;
+  height: 34px;
+}
+
+.header__menu,
+.header__menu-btn {
+  padding: 20px;
+
+  flex: 1.236;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
+
+  list-style: none;
+}
+
+.header__menu li,
+select {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--poppins);
+  color: var(--dark-link);
+  cursor: pointer;
+}
+
+.header__menu select {
+  border: none;
+  background: none;
+}
+
+.header__btn-sign-up {
+  padding: 5px 20px;
+  border: 1px solid var(--dark-link);
+  border-radius: 5px;
+}
