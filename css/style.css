@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 @import url('sections/header.css');
+@import url('sections/hero.css');
 
 :root {
   --poppins: 'Poppins', serif;
@@ -12,6 +13,7 @@
   --text-color: #5e6282;
   --color-orange: #df6951;
   --color-yellow: #f1a501;
+  --color-white: #fff;
 
   --btn-text: #686d77;
   --shadow1: #d5aee4;
@@ -19,8 +21,6 @@
 
   --gradient2: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
   --gradient1: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
-
-  --color-white: #fff;
 }
 
 * {
@@ -52,6 +52,6 @@ a {
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
 }
