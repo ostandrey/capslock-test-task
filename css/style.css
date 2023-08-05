@@ -3,6 +3,7 @@
 
 @import url('sections/header.css');
 @import url('sections/hero.css');
+@import url('sections/subscription.css');
 
 :root {
   --poppins: 'Poppins', serif;
@@ -16,7 +17,7 @@
   --color-white: #fff;
 
   --btn-text: #686d77;
-  --shadow1: #d5aee4;
+  --light-violet: #dfd7f9;
   --background-2nd: #6246e5;
 
   --gradient2: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
