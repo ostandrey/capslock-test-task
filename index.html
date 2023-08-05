@@ -8,85 +8,99 @@
     <title>Jadoo</title>
   </head>
   <body>
-    <header>
-      <div class="wrapper">
-        <nav class="header__nav">
-          <div class="header__logo">
-            <img src="./assets/Logo.png" alt="Logo" />
-          </div>
-          <ul class="header__menu">
-            <li><a href="#destination">Destinations</a></li>
-            <li><a href="#hotels">Hotels</a></li>
-            <li><a href="#flights">Flights</a></li>
-            <li><a href="#bookings">Bookings</a></li>
-            <li><a href="#login">Login</a></li>
-            <li class="header__btn-sign-up"><a href="#sign-up">Sign up</a></li>
-            <li>
-              <select name="language">
-                <option value="english" selected>EN</option>
-                <option value="ukrainian">UA</option>
-              </select>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="hero">
-      <div class="wrapper flex-between">
-        <div class="hero-content">
-          <p class="hero-content__subtitle">Best Destinations around the world</p>
-          <div class="hero-content__title-container">
-            <h1 class="hero-content__title">Travel, enjoy and live a new and full life</h1>
-            <div class="hero-content__title-decore">
-              <img src="assets/decore-2.png" alt="decore-2" />
+    <div class="container">
+      <header>
+        <div class="wrapper">
+          <nav class="header__nav">
+            <div class="header__logo">
+              <img src="./assets/Logo.png" alt="Logo" />
             </div>
-          </div>
-          <p class="hero-content__description">
-            Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it
-            engrossed listening. Park gate sell they west hard for the.
-          </p>
-          <div class="hero-content__buttons">
-            <button class="hero-content__find-button">Find out more</button>
-            <button class="hero-content__play-button">
-              <img src="assets/icon-play.svg" alt="play" />
-              Play Demo
-            </button>
-          </div>
+            <ul class="header__menu">
+              <li><a href="#destination">Destinations</a></li>
+              <li><a href="#hotels">Hotels</a></li>
+              <li><a href="#flights">Flights</a></li>
+              <li><a href="#bookings">Bookings</a></li>
+              <li><a href="#login">Login</a></li>
+              <li class="header__btn-sign-up"><a href="#sign-up">Sign up</a></li>
+              <li>
+                <select name="language">
+                  <option value="english" selected>EN</option>
+                  <option value="ukrainian">UA</option>
+                </select>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="hero__image">
-          <div class="hero__image-hero">
-            <img src="assets/image-hero.png" alt="hero" />
-          </div>
-        </div>
-      </div>
-    </section>
+      </header>
 
-    <section class="subscription">
-      <div class="wrapper">
-        <div class="subscription__container">
-          <div class="subscription__container-form">
-            <div class="subscription__content">
-              <h2>
-                Subscribe to get information, latest news and other interesting offers about Cobham
-              </h2>
-              <div class="subscription__form">
-                <input type="email" placeholder="Your email" />
-                <button>Subscribe</button>
+      <section class="hero">
+        <div class="wrapper flex-between">
+          <div class="hero-content">
+            <p class="hero-content__subtitle">Best Destinations around the world</p>
+            <div class="hero-content__title-container">
+              <h1 class="hero-content__title">Travel, enjoy and live a new and full life</h1>
+              <div class="hero-content__title-decore">
+                <img src="assets/decore-2.png" alt="decore-2" />
               </div>
             </div>
-            <img src="assets/image-rounds.png" alt="rounds" class="subscription__decore-bottom" />
-            <img src="assets/image-rounds.png" alt="rounds" class="subscription__decore-top" />
+            <p class="hero-content__description">
+              Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it
+              engrossed listening. Park gate sell they west hard for the.
+            </p>
+            <div class="hero-content__buttons">
+              <button class="hero-content__find-button">Find out more</button>
+              <button class="hero-content__play-button">
+                <div class="play-button__container">
+                  <img src="assets/icon-play.svg" alt="play" />
+                </div>
+                Play Demo
+              </button>
+            </div>
           </div>
-
-          <div class="subscription__mark">
-            <img src="assets/icon-send.png" alt="send" />
-          </div>
-
-          <div class="subscription__decore">
-            <img src="assets/image-plus.png" alt="decore-plus" />
+          <div class="hero__image">
+            <div class="hero__image-hero">
+              <img src="assets/image-hero.png" alt="hero" />
+            </div>
           </div>
         </div>
+      </section>
+
+      <section class="subscription">
+        <div class="wrapper">
+          <div class="subscription__container">
+            <div class="subscription__container-form">
+              <div class="subscription__content">
+                <h2>
+                  Subscribe to get information, latest news and other interesting offers about
+                  Cobham
+                </h2>
+                <div class="subscription__form">
+                  <input type="email" placeholder="Your email" />
+                  <button>Subscribe</button>
+                </div>
+              </div>
+              <img src="assets/image-rounds.png" alt="rounds" class="subscription__decore-bottom" />
+              <img src="assets/image-rounds.png" alt="rounds" class="subscription__decore-top" />
+            </div>
+
+            <div class="subscription__mark">
+              <img src="assets/icon-send.png" alt="send" />
+            </div>
+
+            <div class="subscription__decore">
+              <img src="assets/image-plus.png" alt="decore-plus" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="decore">
+      <div class="ellipse">
+        <img src="assets/ellipse.png" alt="ellipse" />
+      </div>
+      <div>
+        <img src="assets/image-decore.png" alt="decore" />
       </div>
     </section>
   </body>

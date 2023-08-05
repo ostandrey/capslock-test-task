@@ -4,6 +4,7 @@
 @import url('sections/header.css');
 @import url('sections/hero.css');
 @import url('sections/subscription.css');
+@import url('sections/decore.css');
 
 :root {
   --poppins: 'Poppins', serif;
@@ -40,16 +41,15 @@ a {
   color: inherit;
 }
 
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .flex-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
 }
 
 .wrapper {
