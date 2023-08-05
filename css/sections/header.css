@@ -1,14 +1,15 @@
 .header__nav {
   display: flex;
   overflow: hidden;
+  padding: 30px 0;
 
   position: relative;
 }
 
 .header__logo {
   display: flex;
+  flex: 1;
   position: relative;
-  padding: 30px 0;
 }
 
 .header__logo img {
@@ -18,15 +19,17 @@
 
 .header__menu,
 .header__menu-btn {
-  padding: 30px;
-
-  flex: 1;
+  flex: 1.1;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 64px;
+  gap: 57px;
 
   list-style: none;
+}
+
+.header__menu-login {
+  gap: 37px;
 }
 
 .header__menu li,
@@ -45,7 +48,9 @@ select {
 }
 
 .header__btn-sign-up {
-  padding: 5px 20px;
+  padding: 7px 18px;
+  margin-left: 15px;
+
   border: 1px solid var(--dark-link);
   border-radius: 5px;
 }
