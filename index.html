@@ -25,12 +25,48 @@
               <li><a href="#login">Login</a></li>
               <li class="header__btn-sign-up"><a href="#sign-up">Sign up</a></li>
               <li>
-                <select name="language">
+                <select name="language" class="header__menu-select">
                   <option value="english" selected>EN</option>
                   <option value="ukrainian">UA</option>
                 </select>
               </li>
             </ul>
+
+            <div class="header__menu-btn">
+              <div class="header__menu-burger">
+                <img src="assets/icon-menu.png" alt="menu" />
+              </div>
+            </div>
+
+            <div class="header__menu-wrapper"></div>
+            <div class="header__menu-mobile">
+              <ul class="header__menu-mobile-list">
+                <li>
+                  <a href="#destination" class="header__menu-link">Destinations</a>
+                </li>
+                <li>
+                  <a href="#hotels" class="header__menu-link">Hotels</a>
+                </li>
+                <li>
+                  <a href="#flights" class="header__menu-link">Flights</a>
+                </li>
+                <li>
+                  <a href="#bookings" class="header__menu-link">Bookings</a>
+                </li>
+                <li>
+                  <a href="#login" class="header__menu-link">Login</a>
+                </li>
+                <li>
+                  <a href="#sign-up" class="header__menu-link">Sign up</a>
+                </li>
+                <li>
+                  <select name="language" class="header__menu-select">
+                    <option value="english" selected>EN</option>
+                    <option value="ukrainian">UA</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </header>
@@ -98,12 +134,10 @@
     </div>
 
     <section class="decore">
-      <div class="ellipse">
-        <img src="assets/ellipse.png" alt="ellipse" />
-      </div>
-      <div>
-        <img src="assets/image-decore.png" alt="decore" />
-      </div>
+      <img src="assets/ellipse.png" alt="ellipse" />
+      <img src="assets/image-decore.png" alt="decore" />
     </section>
+
+    <script src="js/script.js" type="module"></script>
   </body>
 </html>
