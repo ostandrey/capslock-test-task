@@ -8,6 +8,138 @@
     <title>Jadoo</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <header>
+        <div class="wrapper">
+          <nav class="header__nav">
+            <div class="header__logo">
+              <img src="./assets/Logo.png" alt="Logo" />
+            </div>
+            <ul class="header__menu">
+              <li><a href="#destination" class="header__menu-link">Destinations</a></li>
+              <li><a href="#hotels" class="header__menu-link">Hotels</a></li>
+              <li><a href="#flights" class="header__menu-link">Flights</a></li>
+              <li><a href="#bookings" class="header__menu-link">Bookings</a></li>
+            </ul>
+            <ul class="header__menu header__menu-login">
+              <li><a href="#login" class="header__menu-link">Login</a></li>
+              <li class="header__btn-sign-up">
+                <a href="#sign-up" class="header__menu-link">Sign up</a>
+              </li>
+              <li class="select">
+                <select name="language" class="header__menu-select">
+                  <option value="english" selected>EN</option>
+                  <option value="ukrainian">UA</option>
+                </select>
+              </li>
+            </ul>
+
+            <div class="header__menu-btn">
+              <div class="header__menu-burger">
+                <img src="assets/icon-menu.png" alt="menu" />
+              </div>
+            </div>
+
+            <div class="header__menu-wrapper"></div>
+            <div class="header__menu-mobile">
+              <ul class="header__menu-mobile-list">
+                <li>
+                  <a href="#destination" class="header__menu-mobile-link">Destinations</a>
+                </li>
+                <li>
+                  <a href="#hotels" class="header__menu-mobile-link">Hotels</a>
+                </li>
+                <li>
+                  <a href="#flights" class="header__menu-mobile-link">Flights</a>
+                </li>
+                <li>
+                  <a href="#bookings" class="header__menu-mobile-link">Bookings</a>
+                </li>
+                <li>
+                  <a href="#login" class="header__menu-mobile-link">Login</a>
+                </li>
+                <li>
+                  <a href="#sign-up" class="header__menu-mobile-link">Sign up</a>
+                </li>
+                <li>
+                  <select name="language" class="header__menu-select">
+                    <option value="english" selected>EN</option>
+                    <option value="ukrainian">UA</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="wrapper flex-between">
+          <div class="hero-content">
+            <p class="hero-content__subtitle">Best Destinations around the world</p>
+            <div class="hero-content__title-container">
+              <h1 class="hero-content__title">Travel, enjoy and live a new and full life</h1>
+              <div class="hero-content__title-decore">
+                <img src="assets/decore-2.png" alt="decore-2" />
+              </div>
+            </div>
+            <p class="hero-content__description">
+              Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it
+              engrossed listening. Park gate sell they west hard for the.
+            </p>
+            <div class="hero-content__buttons">
+              <button class="hero-content__find-button">Find out more</button>
+              <button class="hero-content__play-button">
+                <div class="play-button__container">
+                  <img src="assets/icon-play.svg" alt="play" />
+                </div>
+                Play Demo
+              </button>
+            </div>
+          </div>
+          <div class="hero__image">
+            <div class="hero__image-hero">
+              <img src="assets/image-hero.png" alt="hero" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscription">
+        <div class="wrapper">
+          <div class="subscription__container">
+            <div class="subscription__container-form">
+              <div class="subscription__content">
+                <h2>
+                  Subscribe to get information, latest news and other interesting offers about
+                  Cobham
+                </h2>
+                <div class="subscription__form">
+                  <input type="email" placeholder="Your email" />
+                  <button>Subscribe</button>
+                </div>
+              </div>
+              <img src="assets/image-rounds.png" alt="rounds" class="subscription__decore-bottom" />
+              <img src="assets/image-rounds.png" alt="rounds" class="subscription__decore-top" />
+            </div>
+
+            <div class="subscription__mark">
+              <img src="assets/icon-send.png" alt="send" />
+            </div>
+
+            <div class="subscription__decore">
+              <img src="assets/image-plus.png" alt="decore-plus" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="decore">
+      <img src="assets/ellipse.png" alt="ellipse" />
+      <img src="assets/image-decore.png" alt="decore" />
+    </section>
+
+    <script src="js/script.js" type="module"></script>
   </body>
 </html>

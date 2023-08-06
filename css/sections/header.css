@@ -1,0 +1,162 @@
+.header__nav {
+  display: flex;
+  overflow: hidden;
+  padding: 30px 0;
+
+  position: relative;
+}
+
+.header__logo {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.header__logo img {
+  width: 113px;
+  height: 34px;
+}
+
+.header__menu,
+.header__menu-btn {
+  flex: 1.1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 57px;
+
+  list-style: none;
+}
+
+.header__menu-login {
+  gap: 37px;
+}
+
+.header__menu-link,
+.header__menu-mobile-link,
+.header__menu-select {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--poppins);
+  color: var(--dark-link);
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.header__menu-link:hover,
+.header__menu-mobile-link:hover:not(.select) {
+  padding: 7px 10px;
+  border-radius: 5px;
+  background: var(--dark-link);
+  color: var(--color-white);
+}
+
+.header__menu-select {
+  border: none;
+  background: none;
+}
+
+.header__btn-sign-up {
+  padding: 7px 18px;
+  margin-left: 15px;
+
+  border: 1px solid var(--dark-link);
+  border-radius: 5px;
+
+  transition: 0.3s;
+}
+
+.header__btn-sign-up:hover {
+  background: var(--dark-link);
+  color: var(--color-white);
+}
+
+.header__menu-btn {
+  display: none;
+  gap: 20px;
+
+  position: relative;
+}
+
+.header__menu-btn img {
+  width: 40px;
+}
+
+.header__menu-wrapper {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.header__menu-mobile {
+  position: fixed;
+  z-index: 11;
+  top: 0;
+
+  max-width: 320px;
+  right: -320px;
+
+  background-color: var(--color-white);
+  transition: 0.3s;
+
+  height: 100vh;
+  width: 320px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.active {
+  right: 0;
+}
+
+.header__menu-mobile-list {
+  list-style: none;
+
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: var(--poppins);
+  color: var(--dark-link);
+
+  padding: 20px;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.header__menu-burger {
+  position: absolute;
+  z-index: 12;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+  .header__nav {
+    background: var(--primary-color);
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu-btn,
+  .header__menu-mobile {
+    display: flex;
+  }
+}

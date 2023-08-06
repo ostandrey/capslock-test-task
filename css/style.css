@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('sections/header.css');
+@import url('sections/hero.css');
+@import url('sections/subscription.css');
+@import url('sections/decore.css');
+
+:root {
+  --poppins: 'Poppins', serif;
+  --volkhov: 'Volkhov', sans-serif;
+
+  --dark-link: #39425d;
+  --dark-text: #181e4b;
+  --text-color: #5e6282;
+  --color-orange: #df6951;
+  --color-yellow: #f1a501;
+  --color-white: #fff;
+
+  --btn-text: #686d77;
+  --light-violet: #dfd7f9;
+  --background-2nd: #6246e5;
+
+  --gradient2: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
+  --gradient1: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    padding: 0 20px;
+  }
+}
