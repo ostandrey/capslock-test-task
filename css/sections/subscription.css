@@ -57,13 +57,20 @@
   font-size: 17px;
   line-height: 25.5px;
   font-family: var(--poppins);
+
+  transition: 0.3s;
 }
 
-.subscription__content button {
+.subscription__content input:focus {
+  outline-color: var(--light-violet);
+}
+
+.subscription__form button {
   padding: 20px 47px;
   margin-left: 27px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 
   background: var(--gradient1);
   color: var(--color-white);
@@ -72,6 +79,12 @@
   font-size: 17px;
   line-height: 25.5px;
   font-family: var(--poppins);
+
+  transition: 0.3s;
+}
+
+.subscription__form button:hover {
+  background: linear-gradient(180deg, #f77141 0%, #ff583e 100%);
 }
 
 .subscription__decore-bottom {
